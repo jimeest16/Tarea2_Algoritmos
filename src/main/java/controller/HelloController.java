@@ -1,4 +1,4 @@
-package cr.ac.ucr.tarea2_algoritmos;
+package controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -5,4 +5,6 @@ module cr.ac.ucr.tarea2_algoritmos {
 
     opens cr.ac.ucr.tarea2_algoritmos to javafx.fxml;
     exports cr.ac.ucr.tarea2_algoritmos;
+    exports controller;
+    opens controller to javafx.fxml;
 }
