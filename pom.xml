@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>cr.ac.ucr.tarea2_algoritmos/cr.ac.ucr.tarea2_algoritmos.HelloApplication
+                            <mainClass>cr.ac.ucr.tarea2_algoritmos/cr.ac.ucr.HashTables.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

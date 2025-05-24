@@ -1,0 +1,28 @@
+package domain;
+// buckets se utilizan para contener indices iguales
+
+public class HashTable {
+    private String key;
+    private String value;
+
+    HashTable(String key, String value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}

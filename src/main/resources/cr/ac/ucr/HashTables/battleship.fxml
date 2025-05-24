@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to bottom,#d5f5e6 , #a7dcc3);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BattleshipController">
+
+    <VBox alignment="CENTER" spacing="20" style="-fx-background-color: #ffffff; -fx-padding: 30; -fx-background-radius: 15;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+
+        <Label style="-fx-text-fill: #006064;" text="Battleship Game ">
+            <font>
+                <Font name="Haettenschweiler" size="36.0" />
+            </font>
+        </Label>
+      <Label prefHeight="33.0" prefWidth="334.0" style="-fx-text-fill: black;" text="Presiona los recuadros y encuentra los barcos">
+         <font>
+            <Font name="Haettenschweiler" size="22.0" />
+         </font>
+      </Label>
+        <ImageView fitHeight="72.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@barco.png" />
+            </image>
+        </ImageView>
+
+        <Label fx:id="counterLabel" style="-fx-text-fill: #004d40; -fx-font-size: 18px;" text="Aciertos: 0 / 14">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+
+        <GridPane fx:id="board" hgap="6" style="-fx-background-color: #76a890; -fx-padding: 15; -fx-background-radius: 10;" vgap="6" />
+
+
+    </VBox>
+</AnchorPane>
